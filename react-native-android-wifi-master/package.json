@@ -21,11 +21,16 @@
   "peerDependencies": {
     "react-native": ">=0.13"
   },
-  "dependencies": {},
   "rnpm": {
     "android": {
       "packageInstance": "new AndroidWifiPackage()"
     }
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "expo": "^47.0.12",
+    "react-native-android-wifi": "^0.0.41"
   }
-
 }
